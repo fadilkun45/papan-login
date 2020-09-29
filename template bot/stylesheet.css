@@ -1,0 +1,58 @@
+* {
+    margin : 0 ;
+    padding : 0 ;
+}
+
+body {
+    background-color: whitesmoke  ;
+}
+
+.box h1 {
+    font-size: 40px ;
+    font-family: 'David Libre', serif;
+}
+
+.box {
+    max-width : 500px ;
+    margin : auto ;
+    text-align: center ;
+    padding : 20px ;
+    background-color: #90caf9 ;
+}
+
+.box textarea {
+   display: block ;
+    width: 200px ;
+    height : 100px ;
+    margin : auto ;
+    border : 3px #5d99c6 solid ;
+    margin-top : 5px ;
+    margin-bottom : 5px ;
+    outline: none ;
+    background-color : whitesmoke ;
+    border-radius: 10px ;
+    font-size: 14x ;
+    font-weight: bold ;
+    padding : 3px ;
+    box-sizing: border-box ;
+    font-family: 'David Libre', serif;
+}
+
+.box input[type="submit"] {
+    font-size: 16px ;
+    display: block ;
+    margin : auto ;
+    margin-top: 10px ;
+    cursor:  pointer ;
+    background: none ;
+    border: none ;
+    background-color: #58a5f0 ;
+    padding : 5px ;
+    box-sizing: border-box ;
+    border-radius: 10px ;
+    font-family: 'David Libre', serif;
+}
+
+.box input[type="submit"]:hover {
+    background-color: #004c8c ;
+}
